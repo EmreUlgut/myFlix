@@ -1,0 +1,48 @@
+.nav {
+    padding: 20px;
+    background-color: lightgray;
+    margin-bottom: 40px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+  
+  .nav-home {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav-title {
+    margin-top: 16px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .home-button {
+    margin-top: 10px;
+  }
+  
+  .buttons > *,
+  .home-button {
+    margin-left: 10px;
+    background-color: #f4845f;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  @media (min-width: 200px) and (max-width: 390px) {
+    .buttons {
+      flex-direction: column;
+    }
+    button {
+      margin-bottom: 10px;
+    }
+  }
